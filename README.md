@@ -23,7 +23,7 @@ To install and configure FloaTerm using **lazy.nvim**, add the following to your
 {
   "2happy42/floa-term.nvim",  -- GitHub repository path for the plugin
   version = "*",  -- Use the latest stable version
-  event = "VeryLazy",  -- Define when the plugin should be loaded (e.g., on Neovim startup or on demand)
+  event = "VimEnter",  -- Define when the plugin should be loaded (e.g., on Neovim startup or on demand)
   keys = {
     -- Keybinding for toggling the floating terminal
     {
@@ -64,6 +64,7 @@ Or in a more minimal config:
 ```lua
 {
   "2happy42/floa-term.nvim",
+  event="VimEnter",
   keys = {
     { "<leader>ft", "<cmd>FloatingTerminal<cr>", desc = "Toggle the floating terminal" },
   },
