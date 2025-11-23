@@ -20,7 +20,6 @@ FloaTerm is a Neovim plugin that provides a customizable floating terminal windo
 To install and configure FloaTerm using **lazy.nvim**, add the following to your `init.lua` or `plugins.lua` file. You can customize the keybindings and terminal settings as desired:
 
 ```lua
----@type LazySpec
 {
   "2happy42/FloaTerm",  -- GitHub repository path for the plugin
   version = "*",  -- Use the latest stable version
