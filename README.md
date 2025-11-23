@@ -84,7 +84,7 @@ Or in a more minimal config:
   end,
 }
 ```
-Note: It is recommended to use **event="VimEnter",** if you want to use the Vim command **:FloatingTerminal** from the beginning on and not after you already use the keybinding for it. 
+- Note: It is recommended to use **event="VimEnter",** if you want to use the Vim command **:FloatingTerminal** from the beginning on and not after you already use the keybinding for it. 
 ---
 
 ## Example Usage
