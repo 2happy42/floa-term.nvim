@@ -55,6 +55,8 @@ To install and configure FloaTerm using **lazy.nvim**, add the following to your
     vim.g.floating_terminal_border = opts.border or "rounded"
     vim.g.floating_terminal_row = opts.row or 0.1
     vim.g.floating_terminal_col = opts.col or 0.1
+
+    require("FloaTerm.floating_terminal")
   end,
 }
 ```
